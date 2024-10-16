@@ -41,5 +41,5 @@ jobs:
          
          # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称 
          # skopeo copy docker://docker.io/library/nacos/nacos-server:v1.4.8 docker://crpi-xwg5dcjh17gtpqj6.cn-beijing.personal.cr.aliyuncs.com/nacos/nacos-server:v1.4.8
-         skopeo --dest-tls-verify=false copy docker://docker.io/library/centos:7.9.2009 docker://crpi-xwg5dcjh17gtpqj6.cn-beijing.personal.cr.aliyuncs.com/centos/centos:7.9.2009
+         skopeo copy --dest-tls-verify=false docker://docker.io/library/centos:7.9.2009 docker://crpi-xwg5dcjh17gtpqj6.cn-beijing.personal.cr.aliyuncs.com/centos/centos:7.9.2009
          

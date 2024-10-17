@@ -37,7 +37,7 @@ jobs:
       run: |
          # 查询版本
          # skopeo inspect docker://docker.io/library/nginx
-         skopeo list-tags docker://docker.io/library/openjdk:8-jre-slim
+         skopeo list-tags docker://docker.io/library/openjdk:8
          
          # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称 
          # skopeo copy docker://docker.io/nacos/nacos-server:v2.4.3 docker://crpi-xwg5dcjh17gtpqj6.cn-beijing.personal.cr.aliyuncs.com/bfzx/nacos-server:v1.4.8

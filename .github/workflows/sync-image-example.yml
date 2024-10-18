@@ -45,6 +45,6 @@ jobs:
          # skopeo copy --dest-tls-verify=false docker://docker.io/nginx:stable docker://crpi-xwg5dcjh17gtpqj6.cn-beijing.personal.cr.aliyuncs.com/bfzx/nginx:stable
          # skopeo copy --dest-tls-verify=false docker://docker.io/openjdk:8 docker://crpi-xwg5dcjh17gtpqj6.cn-beijing.personal.cr.aliyuncs.com/bfzx/openjdk:8
          # skopeo copy --dest-tls-verify=false docker://docker.io/openjdk:8-jre-slim docker://crpi-xwg5dcjh17gtpqj6.cn-beijing.personal.cr.aliyuncs.com/bfzx/openjdk:8-jre-slim
-         skopeo copy --dest-tls-verify=false docker://docker.io/spark:latest docker://crpi-xwg5dcjh17gtpqj6.cn-beijing.personal.cr.aliyuncs.com/bfzx/spark:latest
+         skopeo copy --dest-tls-verify=false docker://docker.io/bitnami/spark:3 docker://crpi-xwg5dcjh17gtpqj6.cn-beijing.personal.cr.aliyuncs.com/bfzx/spark:3
 
          
